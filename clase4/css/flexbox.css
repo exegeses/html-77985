@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: hsl(300, 60%, 12%);
+    color: hsl(300, 80%, 70%);
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+main{
+    width: 768px;
+    margin: auto; /* centrar contenedor en eje x */
+    background-color: hsl(300, 60%, 20%);
+    height: 780px;
+}
+
+section{
+    background-color: hsl(300, 60%, 8%);
+    height: 320px;
+    margin: 40px;
+}
+    article{
+        width: 156px;
+        height: 96px;
+        background-color: hsl(300, 50%, 36%);
+        border: 1px solid hsl(300, 50%, 70%);
+    }
+
+/* Regla para el elemento con el id = "primero" */
+#primero{
+    display: flex;
+    /* Distribución en el eje horizontal */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    justify-content: space-between;
+}
