@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #1A1A1A;
+    color: white;
+}
+
+main{
+    width: 1200px;
+    height: 822px;
+    margin: auto;
+    background-color: #121B21;
+}
+
+/* sección productos */
+#productos{
+    height: 734px;
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* centrar contenido en eje Y */
+}
+    #productos article{
+        width: 378px;
+        height: 654px;
+    }
+    #productos div{
+        height: 104px;
+        padding-top: 16px;
+        padding-left: 24px;
+        background-color: #120703;
+    }
+        #productos div h2{
+            margin-bottom: 12px;
+            font-size: 32px;
+            font-weight: 400;
+        }
+        #productos div span{
+            color: #F6CE77;
+        }
